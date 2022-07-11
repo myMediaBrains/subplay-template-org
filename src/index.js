@@ -15,7 +15,7 @@ const language = navigator.language.toLowerCase();
 const defaultLang = i18n[language] ? language : 'en';
 setLocale(defaultLang);
 
-const root = ReactDOM.createRoot(document.getElementById('roo'));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.Fragment>
